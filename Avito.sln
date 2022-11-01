@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{121B1172-6F7E-4BED-A8CA-7E03EA94D38B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Avito", "Avito", "{6CEF3423-2955-44EC-BB2D-819BE1552ED9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{51909454-2B7F-45AD-B7E7-B3986674775F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avito.Api", "src\Avito\Hosts\Avito.Api\Avito.Api.csproj", "{020DEC3A-146C-4B69-81B0-FBCB5DB8E237}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CEF3423-2955-44EC-BB2D-819BE1552ED9} = {121B1172-6F7E-4BED-A8CA-7E03EA94D38B}
+		{51909454-2B7F-45AD-B7E7-B3986674775F} = {6CEF3423-2955-44EC-BB2D-819BE1552ED9}
+		{020DEC3A-146C-4B69-81B0-FBCB5DB8E237} = {51909454-2B7F-45AD-B7E7-B3986674775F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{020DEC3A-146C-4B69-81B0-FBCB5DB8E237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020DEC3A-146C-4B69-81B0-FBCB5DB8E237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020DEC3A-146C-4B69-81B0-FBCB5DB8E237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020DEC3A-146C-4B69-81B0-FBCB5DB8E237}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
