@@ -17,7 +17,7 @@ public class AdController : ControllerBase
     }
 
     /// <summary>
-    /// Добавить новое объявление
+    /// Вывод обхявлений
     /// </summary>
     /// <returns></returns>
     [HttpGet]
@@ -25,9 +25,10 @@ public class AdController : ControllerBase
     {
         return await Task.FromResult(Ok());
     }
+
     
     /// <summary>
-    /// Удалить созданное тобой объявление
+    /// Удаление созданного объявление
     /// </summary>
     /// <returns></returns>
     [HttpDelete]
@@ -36,11 +37,24 @@ public class AdController : ControllerBase
         return await Task.FromResult(Ok());
     }
 
+    
     /// <summary>
-    /// Тут что-то будет
+    /// Обновление через фильтры поиска
     /// </summary>
     /// <returns></returns>
-    public async Task<IActionResult> GetAsync()
+    [HttpPut]
+    public async Task<IActionResult> UpdateAsync()
+    {
+        return await Task.FromResult(Ok());
+    }
+
+    
+    /// <summary>
+    /// Добавление нового объявления
+    /// </summary>
+    /// <returns></returns>
+    [HttpPost]
+    public async Task<IActionResult> PostAsync()
     {
         return await Task.FromResult(Ok());
     }

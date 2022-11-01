@@ -25,3 +25,4 @@ C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\obj\Debug\net6.0\re
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\obj\Debug\net6.0\Avito.Api.pdb
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\obj\Debug\net6.0\Avito.Api.genruntimeconfig.cache
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\obj\Debug\net6.0\ref\Avito.Api.dll
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Documentation.xml
