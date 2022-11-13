@@ -10,3 +10,5 @@ C:\Users\PandY\RiderProjects\Avito\src\Avito\Contracts\Avito.Contracts\obj\Debug
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Contracts\Avito.Contracts\obj\Debug\net6.0\refint\Avito.Contracts.dll
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Contracts\Avito.Contracts\obj\Debug\net6.0\Avito.Contracts.pdb
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Contracts\Avito.Contracts\obj\Debug\net6.0\ref\Avito.Contracts.dll
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Contracts\Avito.Contracts\bin\Debug\net6.0\Avito.Contracts.xml
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Contracts\Avito.Contracts\obj\Debug\net6.0\Avito.Contracts.xml

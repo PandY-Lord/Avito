@@ -28,3 +28,4 @@ C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\obj\Debug\net6.0\re
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Documentation.xml
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Avito.Contracts.dll
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Avito.Contracts.pdb
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Avito.Contracts.xml
