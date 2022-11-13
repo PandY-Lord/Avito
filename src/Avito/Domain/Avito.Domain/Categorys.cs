@@ -1,6 +1,6 @@
 ﻿namespace Avito.Domain;
 
-public class Category
+public class Categorys
 {
     /// <summary>
     /// Id категории

@@ -1,4 +1,6 @@
-﻿namespace Avito.Contracts;
+﻿using Avito.Domain;
+
+namespace Avito.Contracts;
 
 public class AvitoAllDto
 {
@@ -17,7 +19,7 @@ public class AvitoAllDto
     /// <summary>
     /// Картинки товара
     /// </summary>
-    public string Picture { get; set; }
+    public Pictures Picture { get; set; }
     /// <summary>
     /// Уникальный id продавца
     /// </summary>
@@ -25,5 +27,9 @@ public class AvitoAllDto
     /// <summary>
     /// Город в котором находится товар
     /// </summary>
-    public string Location { get; set; }
+    public IEnumerable<Cities> Location { get; set; }
+    /// <summary>
+    /// Категория товара
+    /// </summary>
+    public IEnumerable<Categorys> Categoty { get; set; } //Довести до списка категорий, успеть до миграций
 }

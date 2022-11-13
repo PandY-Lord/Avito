@@ -23,6 +23,7 @@ public class AdController : ControllerBase
     /// </summary>
     /// <returns></returns>
     [HttpGet ("Get")]
+
     [ProducesResponseType(typeof(IReadOnlyCollection<AvitoDto>),(int)HttpStatusCode.OK)]
     public async Task<IActionResult> GetAsync()
     {

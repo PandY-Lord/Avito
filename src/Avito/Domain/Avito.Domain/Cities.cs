@@ -3,7 +3,7 @@
 /// <summary>
 /// Города для поиска товаров - Модель
 /// </summary>
-public class Сities
+public class Cities
 {
     /// <summary>
     ///Id города продажи товара
