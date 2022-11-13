@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Avito.Domain;
 
 namespace Avito.Contracts;
 
@@ -27,7 +28,7 @@ public class AvitoDto
     /// <summary>
     /// Картинки товара
     /// </summary>
-    public IEnumerable<string> Pictures { get; set; }
+    public IEnumerable<Pictures> Pictures { get; set; }
     /// <summary>
     /// Номер проадвца
     /// </summary>
@@ -39,9 +40,9 @@ public class AvitoDto
     /// <summary>
     /// Категория товара
     /// </summary>
-    public string Categoty { get; set; } //Довести до списка категорий, успеть до миграций
+    public IEnumerable<Categorys> Category { get; set; } //Довести до списка категорий, успеть до миграций
     /// <summary>
     /// Город в котором находится товар
     /// </summary>
-    public string Location { get; set; }
+    public IEnumerable<Cities> Location { get; set; }
 }
