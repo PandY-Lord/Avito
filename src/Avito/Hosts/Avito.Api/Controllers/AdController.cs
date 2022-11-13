@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Net;
+using Avito.Contracts;
+using Microsoft.AspNetCore.Mvc;
+namespace Avito.Api.Controller;
 
-namespace Avito.Api.Controllers;
 
 /// <summary>
 /// Работа с контроллером объявлений
@@ -17,21 +19,32 @@ public class AdController : ControllerBase
     }
 
     /// <summary>
-    /// Вывод обхявлений
+    /// Вывод объявлений
     /// </summary>
     /// <returns></returns>
-    [HttpGet]
+    [HttpGet ("Get")]
+    [ProducesResponseType(typeof(IReadOnlyCollection<AvitoDto>),(int)HttpStatusCode.OK)]
     public async Task<IActionResult> GetAsync()
     {
         return await Task.FromResult(Ok());
     }
 
+    /// <summary>
+    /// Вывод **всех** объялений
+    /// </summary>
+    /// <returns></returns>
+    [HttpGet ("GetAll")]
+    [ProducesResponseType(typeof(IReadOnlyCollection<AvitoAllDto>),(int)HttpStatusCode.OK)]
+    public async Task<IActionResult> GetAllAsync()
+    {
+        return await Task.FromResult(Ok());
+    }
     
     /// <summary>
     /// Удаление созданного объявление
     /// </summary>
     /// <returns></returns>
-    [HttpDelete]
+    [HttpDelete ("Post")]
     public async Task<IActionResult> DeleteAsync(Guid id)
     {
         return await Task.FromResult(Ok());
@@ -42,7 +55,7 @@ public class AdController : ControllerBase
     /// Обновление через фильтры поиска
     /// </summary>
     /// <returns></returns>
-    [HttpPut]
+    [HttpPut ("Put")]
     public async Task<IActionResult> UpdateAsync()
     {
         return await Task.FromResult(Ok());
@@ -53,7 +66,7 @@ public class AdController : ControllerBase
     /// Добавление нового объявления
     /// </summary>
     /// <returns></returns>
-    [HttpPost]
+    [HttpPost ("Post")]
     public async Task<IActionResult> PostAsync()
     {
         return await Task.FromResult(Ok());
