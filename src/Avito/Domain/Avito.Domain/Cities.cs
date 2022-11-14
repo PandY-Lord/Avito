@@ -9,6 +9,7 @@ public class Cities
     ///Id города продажи товара
     /// </summary>
     public Guid LocationId { get; set; }
+
     /// <summary>
     /// Название города для продажи 
     /// </summary>

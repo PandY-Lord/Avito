@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-
-namespace Avito.Domain;
+﻿namespace Avito.Domain;
 
 public class Pictures
 {
@@ -8,12 +6,14 @@ public class Pictures
     /// Уникальный номер картинки
     /// </summary>
     public Guid PicturesId { get; set; }
+
     /// <summary>
     /// Название картинки
     /// </summary>
     public string PicturesnName { get; set; }
+
     /// <summary>
-    /// Ссылка на картину в БДшке
+    /// Ссылка на картинку в БДшке
     /// </summary>
     public string Image { get; set; }
 }

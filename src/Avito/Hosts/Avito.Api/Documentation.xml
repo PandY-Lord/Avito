@@ -9,31 +9,31 @@
             Работа с контроллером объявлений
             </summary>
         </member>
-        <member name="M:Avito.Api.Controller.AdController.GetAsync">
+        <member name="M:Avito.Api.Controller.AdController.GetAsyncAdvert">
             <summary>
             Вывод объявлений
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Avito.Api.Controller.AdController.GetAllAsync">
+        <member name="M:Avito.Api.Controller.AdController.GetAllAsyncAdvert">
             <summary>
             Вывод **всех** объялений
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Avito.Api.Controller.AdController.DeleteAsync(System.Guid)">
+        <member name="M:Avito.Api.Controller.AdController.DeleteAsyncAdvert(System.Guid,System.Threading.CancellationToken)">
             <summary>
             Удаление созданного объявление
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Avito.Api.Controller.AdController.UpdateAsync">
+        <member name="M:Avito.Api.Controller.AdController.UpdateAsyncAdvert(System.Guid,System.String,System.Int32,System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)">
             <summary>
             Обновление через фильтры поиска
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Avito.Api.Controller.AdController.PostAsync">
+        <member name="M:Avito.Api.Controller.AdController.PostAsyncAdvert(System.Guid,System.String,System.Int32,System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken)">
             <summary>
             Добавление нового объявления
             </summary>

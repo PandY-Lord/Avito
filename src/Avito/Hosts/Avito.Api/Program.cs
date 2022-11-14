@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(option =>
 {
-    option.SwaggerDoc("v1", new OpenApiInfo(){Title = "Avito Api", Version = "V1"});
+    option.SwaggerDoc("v1", new OpenApiInfo() { Title = "Avito Api", Version = "V1" });
     option.IncludeXmlComments(Path.Combine(Path.Combine(AppContext.BaseDirectory, "Documentation.xml")));
 });
 

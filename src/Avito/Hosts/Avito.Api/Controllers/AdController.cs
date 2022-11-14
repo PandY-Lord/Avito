@@ -1,13 +1,13 @@
 ﻿using System.Net;
 using Avito.Contracts;
+using Avito.Domain;
 using Microsoft.AspNetCore.Mvc;
-namespace Avito.Api.Controller;
 
+namespace Avito.Api.Controller;
 
 /// <summary>
 /// Работа с контроллером объявлений
 /// </summary>
-
 [ApiController]
 [Route("v1/[controller]")]
 public class AdController : ControllerBase
@@ -22,10 +22,9 @@ public class AdController : ControllerBase
     /// Вывод объявлений
     /// </summary>
     /// <returns></returns>
-    [HttpGet ("Get")]
-
-    [ProducesResponseType(typeof(IReadOnlyCollection<AvitoDto>),(int)HttpStatusCode.OK)]
-    public async Task<IActionResult> GetAsync()
+    [HttpGet("Get")]
+    [ProducesResponseType(typeof(IReadOnlyCollection<AvitoDto>), (int)HttpStatusCode.OK)]
+    public async Task<IActionResult> GetAsyncAdvert()
     {
         return await Task.FromResult(Ok());
     }
@@ -34,41 +33,50 @@ public class AdController : ControllerBase
     /// Вывод **всех** объялений
     /// </summary>
     /// <returns></returns>
-    [HttpGet ("GetAll")]
-    [ProducesResponseType(typeof(IReadOnlyCollection<AvitoAllDto>),(int)HttpStatusCode.OK)]
-    public async Task<IActionResult> GetAllAsync()
+    [HttpGet("GetAll")]
+    [ProducesResponseType(typeof(IReadOnlyCollection<AvitoAllDto>), (int)HttpStatusCode.OK)]
+    public async Task<IActionResult> GetAllAsyncAdvert()
     {
         return await Task.FromResult(Ok());
     }
-    
+
     /// <summary>
     /// Удаление созданного объявление
     /// </summary>
     /// <returns></returns>
-    [HttpDelete ("Post")]
-    public async Task<IActionResult> DeleteAsync(Guid id)
+    [HttpDelete("{Id}")]
+    [ProducesResponseType((int)HttpStatusCode.OK)]
+    [ProducesResponseType((int)HttpStatusCode.NotFound)]
+    public async Task<IActionResult> DeleteAsyncAdvert(Guid Id, CancellationToken deleteCancellationToken)
     {
         return await Task.FromResult(Ok());
     }
 
-    
+
     /// <summary>
     /// Обновление через фильтры поиска
     /// </summary>
     /// <returns></returns>
-    [HttpPut ("Put")]
-    public async Task<IActionResult> UpdateAsync()
+    [HttpPut("{Id}")]
+    [ProducesResponseType((int)HttpStatusCode.OK)]
+    [ProducesResponseType((int)HttpStatusCode.NotFound)]
+    public async Task<IActionResult> UpdateAsyncAdvert(Guid Id, string Title, int Price, string Description,
+        string PhoneNumber, IEnumerable<string> Pictures, CancellationToken putCancellationToken)
     {
         return await Task.FromResult(Ok());
     }
 
-    
+    //Cities Location, Categorys Category
+
     /// <summary>
     /// Добавление нового объявления
     /// </summary>
     /// <returns></returns>
-    [HttpPost ("Post")]
-    public async Task<IActionResult> PostAsync()
+    [HttpPost("{Id}")]
+    [ProducesResponseType((int)HttpStatusCode.OK)]
+    [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+    public async Task<IActionResult> PostAsyncAdvert(Guid Id, string Title, int Price, string Description,
+        string PhoneNumber, IEnumerable<string> Pictures, CancellationToken putCancellationToken) //Не хватает полей (Cities Location, Categorys Category), возможно ошибка в отсутсвии БД
     {
         return await Task.FromResult(Ok());
     }

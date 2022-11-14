@@ -6,6 +6,7 @@ public class Categorys
     /// Id категории
     /// </summary>
     public Guid CategoryId { get; set; }
+
     /// <summary>
     /// Наименование категории
     /// </summary>
