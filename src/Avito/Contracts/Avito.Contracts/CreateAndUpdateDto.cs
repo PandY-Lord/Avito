@@ -1,14 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
-using Avito.Domain;
+﻿using Avito.Domain;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.Features;
 
 namespace Avito.Contracts;
 
-public class AvitoDto
+public class CreateAndUpdateDto
+
 {
-    /// <summary>
-    /// Уникальный ключЬ объявления
-    /// </summary>
-    public Guid Id { get; set; }
     /// <summary>
     /// Наименование товара
     /// </summary>
@@ -18,23 +16,15 @@ public class AvitoDto
     /// </summary>
     public int Price { get; set; }
     /// <summary>
-    /// Описание товара
-    /// </summary>
-    public string Description { get; set; }
-    /// <summary>
-    /// Номер проадвца
-    /// </summary>
-    public string PhoneNumber { get; set; }
-    /// <summary>
     /// Дата создания/выгрузки объявления
     /// </summary>
     public DateOnly CreateDate { get; set; }
     /// <summary>
     /// Картинки товара
     /// </summary>
-    public IEnumerable<string> Pictures { get; set; }
+    public IEnumerable<IFormFile> Picture { get; set; }
     /// <summary>
-    /// Уникальный номер продавца
+    /// Уникальный id продавца
     /// </summary>
     public int PersonId { get; set; }
     /// <summary>
@@ -44,6 +34,5 @@ public class AvitoDto
     /// <summary>
     /// Категория товара
     /// </summary>
-    public Categorys Category { get; set; } //Довести до списка категорий, успеть до миграций
-
+    public Categorys Categoty { get; set; } //Довести до списка категорий, успеть до миграций
 }
