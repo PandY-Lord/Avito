@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Avito.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Avito.Api.Controller.AdController">
+            <summary>
+            Работа с контроллером объявлений
+            </summary>
+        </member>
+        <member name="M:Avito.Api.Controller.AdController.GetAsync">
+            <summary>
+            Вывод объявлений
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Avito.Api.Controller.AdController.GetAllAsync">
+            <summary>
+            Вывод **всех** объялений
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Avito.Api.Controller.AdController.DeleteAsync(System.Guid)">
+            <summary>
+            Удаление созданного объявление
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Avito.Api.Controller.AdController.UpdateAsync">
+            <summary>
+            Обновление через фильтры поиска
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Avito.Api.Controller.AdController.PostAsync">
+            <summary>
+            Добавление нового объявления
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

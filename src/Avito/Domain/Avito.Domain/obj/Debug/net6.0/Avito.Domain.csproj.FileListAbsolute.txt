@@ -1,0 +1,12 @@
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\bin\Debug\net6.0\Avito.Domain.deps.json
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\bin\Debug\net6.0\Avito.Domain.dll
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\bin\Debug\net6.0\Avito.Domain.pdb
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\obj\Debug\net6.0\Avito.Domain.csproj.AssemblyReference.cache
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\obj\Debug\net6.0\Avito.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\obj\Debug\net6.0\Avito.Domain.AssemblyInfoInputs.cache
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\obj\Debug\net6.0\Avito.Domain.AssemblyInfo.cs
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\obj\Debug\net6.0\Avito.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\obj\Debug\net6.0\Avito.Domain.dll
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\obj\Debug\net6.0\refint\Avito.Domain.dll
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\obj\Debug\net6.0\Avito.Domain.pdb
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\obj\Debug\net6.0\ref\Avito.Domain.dll
