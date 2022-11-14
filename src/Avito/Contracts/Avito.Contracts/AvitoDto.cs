@@ -28,7 +28,7 @@ public class AvitoDto
     /// <summary>
     /// Картинки товара
     /// </summary>
-    public IEnumerable<Pictures> Pictures { get; set; }
+    public IEnumerable<string> Pictures { get; set; }
     /// <summary>
     /// Номер проадвца
     /// </summary>
@@ -40,9 +40,9 @@ public class AvitoDto
     /// <summary>
     /// Категория товара
     /// </summary>
-    public IEnumerable<Categorys> Category { get; set; } //Довести до списка категорий, успеть до миграций
+    public Categorys Category { get; set; } //Довести до списка категорий, успеть до миграций
     /// <summary>
     /// Город в котором находится товар
     /// </summary>
-    public IEnumerable<Cities> Location { get; set; }
+    public Cities Location { get; set; }
 }

@@ -13,7 +13,7 @@ public class Pictures
     /// </summary>
     public string PicturesnName { get; set; }
     /// <summary>
-    /// Картинка, которую загружают
+    /// Ссылка на картину в БДшке
     /// </summary>
-    public IFormFile Image { get; set; }
+    public string Image { get; set; }
 }

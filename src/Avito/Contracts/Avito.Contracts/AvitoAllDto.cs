@@ -19,7 +19,7 @@ public class AvitoAllDto
     /// <summary>
     /// Картинки товара
     /// </summary>
-    public Pictures Picture { get; set; }
+    public string Picture { get; set; }
     /// <summary>
     /// Уникальный id продавца
     /// </summary>
@@ -27,9 +27,9 @@ public class AvitoAllDto
     /// <summary>
     /// Город в котором находится товар
     /// </summary>
-    public IEnumerable<Cities> Location { get; set; }
+    public Cities Location { get; set; }
     /// <summary>
     /// Категория товара
     /// </summary>
-    public IEnumerable<Categorys> Categoty { get; set; } //Довести до списка категорий, успеть до миграций
+    public Categorys Categoty { get; set; } //Довести до списка категорий, успеть до миграций
 }

@@ -29,3 +29,5 @@ C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Do
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Avito.Contracts.dll
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Avito.Contracts.pdb
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Avito.Contracts.xml
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Avito.Domain.dll
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Avito.Domain.pdb
