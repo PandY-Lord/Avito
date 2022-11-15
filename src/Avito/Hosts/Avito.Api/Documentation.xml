@@ -9,35 +9,38 @@
             Работа с контроллером объявлений
             </summary>
         </member>
-        <member name="M:Avito.Api.Controller.AdController.GetAsync">
+        <member name="M:Avito.Api.Controller.AdController.GetAsyncAdvert">
             <summary>
             Вывод объявлений
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Avito.Api.Controller.AdController.GetAllAsync">
+        <member name="M:Avito.Api.Controller.AdController.GetAllAsyncAdvert">
             <summary>
             Вывод **всех** объялений
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Avito.Api.Controller.AdController.DeleteAsync(System.Guid)">
+        <member name="M:Avito.Api.Controller.AdController.DeleteAsyncAdvert(Avito.Contracts.CreateAndUpdateDto,System.Threading.CancellationToken)">
             <summary>
             Удаление созданного объявление
             </summary>
+            <param name="deletedAdvertDto"></param>
             <returns></returns>
         </member>
-        <member name="M:Avito.Api.Controller.AdController.UpdateAsync">
+        <member name="M:Avito.Api.Controller.AdController.UpdateAsyncAdvert(Avito.Contracts.CreateAndUpdateDto,System.Threading.CancellationToken)">
             <summary>
             Обновление через фильтры поиска
             </summary>
+            <param name="updateAdvertDto"></param>
             <returns></returns>
         </member>
-        <member name="M:Avito.Api.Controller.AdController.PostAsync">
-            <summary>
-            Добавление нового объявления
-            </summary>
-            <returns></returns>
+        <member name="M:Avito.Api.Controller.AdController.PostAsyncAdvert(Avito.Contracts.CreateAndUpdateDto,System.Threading.CancellationToken)">
+             <summary>
+             Добавление нового объявления
+             </summary>
+            <param name="createAdvertDto"></param>
+             <returns></returns>
         </member>
     </members>
 </doc>
