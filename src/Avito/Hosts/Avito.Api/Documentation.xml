@@ -21,23 +21,26 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Avito.Api.Controller.AdController.DeleteAsyncAdvert(System.Guid,System.Threading.CancellationToken)">
+        <member name="M:Avito.Api.Controller.AdController.DeleteAsyncAdvert(Avito.Contracts.CreateAndUpdateDto,System.Threading.CancellationToken)">
             <summary>
             Удаление созданного объявление
             </summary>
+            <param name="deletedAdvertDto"></param>
             <returns></returns>
         </member>
         <member name="M:Avito.Api.Controller.AdController.UpdateAsyncAdvert(Avito.Contracts.CreateAndUpdateDto,System.Threading.CancellationToken)">
             <summary>
             Обновление через фильтры поиска
             </summary>
+            <param name="updateAdvertDto"></param>
             <returns></returns>
         </member>
-        <member name="M:Avito.Api.Controller.AdController.PostAsyncAdvert(System.Guid,Avito.Domain.Cities,System.Threading.CancellationToken)">
-            <summary>
-            Добавление нового объявления
-            </summary>
-            <returns></returns>
+        <member name="M:Avito.Api.Controller.AdController.PostAsyncAdvert(Avito.Contracts.CreateAndUpdateDto,System.Threading.CancellationToken)">
+             <summary>
+             Добавление нового объявления
+             </summary>
+            <param name="createAdvertDto"></param>
+             <returns></returns>
         </member>
     </members>
 </doc>
