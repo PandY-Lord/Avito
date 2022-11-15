@@ -43,11 +43,12 @@ public class AdController : ControllerBase
     /// <summary>
     /// Удаление созданного объявление
     /// </summary>
+    /// <param name="deletedAdvertDto"></param>
     /// <returns></returns>
-    [HttpDelete("{Id}")]
+    [HttpDelete("Delete")]
     [ProducesResponseType((int)HttpStatusCode.OK)]
     [ProducesResponseType((int)HttpStatusCode.NotFound)]
-    public async Task<IActionResult> DeleteAsyncAdvert(Guid Id, CancellationToken deleteCancellationToken)
+    public async Task<IActionResult> DeleteAsyncAdvert([FromQuery]CreateAndUpdateDto deletedAdvertDto, CancellationToken deleteCancellationToken)
     {
         return await Task.FromResult(Ok());
     }
@@ -56,12 +57,12 @@ public class AdController : ControllerBase
     /// <summary>
     /// Обновление через фильтры поиска
     /// </summary>
+    /// <param name="updateAdvertDto"></param>
     /// <returns></returns>
-    [HttpPut("{Id}")]
+    [HttpPut("Put")]
     [ProducesResponseType((int)HttpStatusCode.OK)]
     [ProducesResponseType((int)HttpStatusCode.NotFound)]
-    public async Task<IActionResult> UpdateAsyncAdvert(Guid Id, string Title, int Price, string Description,
-        string PhoneNumber, IEnumerable<string> Pictures, CancellationToken putCancellationToken)
+    public async Task<IActionResult> UpdateAsyncAdvert(CreateAndUpdateDto updateAdvertDto, CancellationToken putCancellationToken)
     {
         return await Task.FromResult(Ok());
     }
@@ -71,12 +72,12 @@ public class AdController : ControllerBase
     /// <summary>
     /// Добавление нового объявления
     /// </summary>
+    ///<param name="createAdvertDto"></param>
     /// <returns></returns>
-    [HttpPost("{Id}")]
+    [HttpPost("Post")]
     [ProducesResponseType((int)HttpStatusCode.OK)]
     [ProducesResponseType((int)HttpStatusCode.BadRequest)]
-    public async Task<IActionResult> PostAsyncAdvert(Guid Id, string Title, int Price, string Description,
-        string PhoneNumber, IEnumerable<string> Pictures, CancellationToken putCancellationToken) //Не хватает полей (Cities Location, Categorys Category), возможно ошибка в отсутсвии БД
+    public async Task<IActionResult> PostAsyncAdvert(CreateAndUpdateDto createAdvertDto, CancellationToken putCancellationToken)
     {
         return await Task.FromResult(Ok());
     }

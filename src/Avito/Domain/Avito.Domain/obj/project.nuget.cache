@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "kCeYkIGhtx4D6lU5zjIaB7/s9RkijqpjmQ/loFlTZ6YJPU+fbTUfj5q2gLuoZOKuC06CRZeQ+mXrTBma4UBfUA==",
+  "dgSpecHash": "3RbMHlM8FSIbE7Ib42NJCvWlW4P7ai9o0EfP2qui+obxGOtZiTGfWlO8HttuPBOha+RDjaUobHFmfp/ux70jqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Domain\\Avito.Domain\\Avito.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\PandY\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\PandY\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
     "C:\\Users\\PandY\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\PandY\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\PandY\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
+    "C:\\Users\\PandY\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\PandY\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.2.0\\microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\PandY\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
     "C:\\Users\\PandY\\.nuget\\packages\\microsoft.extensions.options\\2.2.0\\microsoft.extensions.options.2.2.0.nupkg.sha512",
