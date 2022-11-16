@@ -11,9 +11,11 @@ public class Pictures
     /// <summary>
     /// Название картинки
     /// </summary>
-    public string PicturesnName { get; set; }
+    public string? PicturesnName { get; set; }
     /// <summary>
     /// Ссылка на картину в БДшке
     /// </summary>
     public string Image { get; set; }
+    
+    public Advert PicturesAdvert { get; set; }
 }

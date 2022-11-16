@@ -1,4 +1,6 @@
-﻿namespace Avito.Domain;
+﻿using System.Diagnostics.Contracts;
+
+namespace Avito.Domain;
 
 /// <summary>
 /// Города для поиска товаров - Модель
@@ -9,8 +11,11 @@ public class Cities
     ///Id города продажи товара
     /// </summary>
     public Guid LocationId { get; set; }
+
     /// <summary>
     /// Название города для продажи 
     /// </summary>
     public string LocationName { get; set; }
+    
+    public IEnumerable<Advert> CitiesAdverts { get; set; }
 }

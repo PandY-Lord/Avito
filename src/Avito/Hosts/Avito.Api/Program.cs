@@ -1,15 +1,20 @@
+using Avito.Contracts;
+using Avito.Registrar;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddServices();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(option =>
 {
-    option.SwaggerDoc("v1", new OpenApiInfo(){Title = "Avito Api", Version = "V1"});
+    option.SwaggerDoc("v1", new OpenApiInfo() { Title = "Avito Api", Version = "V1" });
+    // option.IncludeXmlComments(Path.Combine(Path.Combine(AppContext.BaseDirectory,
+    // $"{typeof(AvitoDto).Assembly.GetName().Name}xml")));
     option.IncludeXmlComments(Path.Combine(Path.Combine(AppContext.BaseDirectory, "Documentation.xml")));
 });
 

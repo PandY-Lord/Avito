@@ -10,4 +10,6 @@ public class Categorys
     /// Наименование категории
     /// </summary>
     public string CategoryName { get; set; }
+    
+    public IEnumerable<Advert>? CategorysAdvert { get; set; }
 }
