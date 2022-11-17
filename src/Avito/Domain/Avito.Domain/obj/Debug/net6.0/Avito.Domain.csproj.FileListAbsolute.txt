@@ -10,3 +10,5 @@ C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\obj\Debug\net6.
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\obj\Debug\net6.0\refint\Avito.Domain.dll
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\obj\Debug\net6.0\Avito.Domain.pdb
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\obj\Debug\net6.0\ref\Avito.Domain.dll
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\bin\Debug\net6.0\Avito.Domain.runtimeconfig.json
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Domain\Avito.Domain\obj\Debug\net6.0\Avito.Domain.genruntimeconfig.cache

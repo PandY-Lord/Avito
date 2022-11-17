@@ -1,6 +1,11 @@
-﻿namespace Migrations;
+﻿using Avito.DataAccess;
+using Microsoft.EntityFrameworkCore;
 
-public class MigrationsDbContext
+namespace Migrations;
+
+public class MigrationsDbContext : AdvertContext
 {
-    
+    public MigrationsDbContext(DbContextOptions options) : base(options)
+    {
+    }
 }
