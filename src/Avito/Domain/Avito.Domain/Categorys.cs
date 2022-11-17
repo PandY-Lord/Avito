@@ -11,5 +11,5 @@ public class Categorys
     /// </summary>
     public string CategoryName { get; set; }
     
-    public IEnumerable<Advert>? CategorysAdvert { get; set; }
+    public IEnumerable<Advert> CategorysAdvert { get; set; }
 }

@@ -1,5 +1,0 @@
-﻿{
-  "ConnectionStrings": {
-    "PostgresAdvertDb": "Host = localhost;Database=PostgresAvitoDb БД;Username=postgres;Password=postgres;"
-  }
-}

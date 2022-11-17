@@ -18,7 +18,6 @@ public class MigrationContextFactory : IDesignTimeDbContextFactory<MigrationsDbC
         //получение конфигура из файла appsetings.json
         Microsoft.Extensions.Configuration.ConfigurationBuilder builder =
             new Microsoft.Extensions.Configuration.ConfigurationBuilder();
-        builder.AddJsonFile(Directory.GetCurrentDirectory());
         builder.SetBasePath(Directory.GetCurrentDirectory());
         builder.AddJsonFile("appsettings.json");
         IConfigurationRoot config = builder.Build();

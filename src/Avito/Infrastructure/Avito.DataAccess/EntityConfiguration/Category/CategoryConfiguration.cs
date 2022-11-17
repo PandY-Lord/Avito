@@ -17,5 +17,6 @@ public class CategoryConfiguration : IEntityTypeConfiguration<Domain.Categorys>
         builder.HasMany(p => p.CategorysAdvert)
             .WithOne(w => w.Category).HasForeignKey(s => s.Id);
 
+        builder.HasMany(p => p.CategorysAdvert).WithOne(s => s.Category).HasForeignKey(s => s.Id);
     }
 }

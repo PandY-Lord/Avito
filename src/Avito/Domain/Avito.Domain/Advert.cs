@@ -41,6 +41,6 @@ public class Advert
     /// <summary>
     /// Категория товара
     /// </summary>
-    public Categorys Category { get; set; } //Довести до списка категорий, успеть до миграций
+    public Categorys Category { get; set; }
     
 }
