@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avito.DataAccess", "src\Avi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avito.Registrar", "src\Avito\Infrastructure\Avito.Registrar\Avito.Registrar.csproj", "{CBDC3C78-F35E-40CB-9C86-AD9090CD6FC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrations", "src\Avito\Hosts\Migrations\Migrations\Migrations.csproj", "{11907A4C-ACA4-4169-958C-A8EC58DBE994}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,7 @@ Global
 		{076F7220-BEFF-4498-AE89-ADBD19DCF3D3} = {6CEF3423-2955-44EC-BB2D-819BE1552ED9}
 		{ECA45D57-A226-444C-97BB-5175C1D8145F} = {076F7220-BEFF-4498-AE89-ADBD19DCF3D3}
 		{CBDC3C78-F35E-40CB-9C86-AD9090CD6FC8} = {076F7220-BEFF-4498-AE89-ADBD19DCF3D3}
+		{11907A4C-ACA4-4169-958C-A8EC58DBE994} = {51909454-2B7F-45AD-B7E7-B3986674775F}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{020DEC3A-146C-4B69-81B0-FBCB5DB8E237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -60,5 +63,9 @@ Global
 		{CBDC3C78-F35E-40CB-9C86-AD9090CD6FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBDC3C78-F35E-40CB-9C86-AD9090CD6FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBDC3C78-F35E-40CB-9C86-AD9090CD6FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11907A4C-ACA4-4169-958C-A8EC58DBE994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11907A4C-ACA4-4169-958C-A8EC58DBE994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11907A4C-ACA4-4169-958C-A8EC58DBE994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11907A4C-ACA4-4169-958C-A8EC58DBE994}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
