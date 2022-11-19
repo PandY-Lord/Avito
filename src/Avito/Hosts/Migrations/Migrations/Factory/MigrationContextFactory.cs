@@ -23,7 +23,7 @@ public class MigrationContextFactory : IDesignTimeDbContextFactory<MigrationsDbC
         IConfigurationRoot config = builder.Build();
 
         //получаем строку подключения из файла appsetings.json
-        string connectionString = config.GetConnectionString("PostgresAvitoDb");
+        string connectionString = config.GetConnectionString("PostgresAdvertDb");
         optionsBuilder.UseNpgsql(connectionString, opts => opts
             .CommandTimeout((int)TimeSpan.FromMinutes(10).TotalSeconds)
             .MigrationsAssembly(typeof(MigrationContextFactory).Assembly.FullName)
