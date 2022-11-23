@@ -48,7 +48,7 @@ public class AdController : ControllerBase
     [HttpDelete("Delete")]
     [ProducesResponseType((int)HttpStatusCode.OK)]
     [ProducesResponseType((int)HttpStatusCode.NotFound)]
-    public async Task<IActionResult> DeleteAsyncAdvert([FromQuery]CreateAndUpdateDto deletedAdvertDto, CancellationToken deleteCancellationToken)
+    public async Task<IActionResult> DeleteAsyncAdvert(Guid Id)
     {
         return await Task.FromResult(Ok());
     }

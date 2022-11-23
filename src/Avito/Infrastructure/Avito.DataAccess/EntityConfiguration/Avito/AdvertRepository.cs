@@ -38,18 +38,12 @@ public class AdvertRepository : IAdvertRepository
         {
             query = query.Where(p => p.Id == request.Id);
         }
-//АААААААААААААААААААААААААААААААААААААААААААААААААА ЧТО ЕДЛАТЬ 
         if (!string.IsNullOrWhiteSpace(request.Name))
         {
             query = query.Where(p => p.Title.ToLower().Contains(request.Name));
         }
-        
-        if (!int.(request.Price))
-        {
-            query = query.Where(p => p.Price.Equals(request.Price));
-        }
-        
-            return await query.Select(p => new AvitoAllDto
+
+        return await query.Select(p => new AvitoAllDto
                 {
                     PersonId = p.PersonId,
                     Categoty = p.Category,
