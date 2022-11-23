@@ -26,13 +26,13 @@ public interface IRepository<TEntity> where TEntity : class
     /// </summary>
     /// <param name="id">Идентификатор <see cref="TEntity"/>.</param>
     /// <returns><see cref="TEntity"/>.</returns>
-    IQueryable<TEntity> GetByIdAsync(Guid id);
+    Task<TEntity> GetByIdAsync(Guid id);
 
     /// <summary>
     /// Добавляет элемент <see cref="TEntity"/>.
     /// </summary>
     /// <param name="model">Новая сущность <see cref="TEntity"/>.</param>
-    Task AddAsync(TEntity modled);
+    Task AddAsync(TEntity model);
 
     /// <summary>
     /// Обновляет элемент <see cref="TEntity"/>.

@@ -4,6 +4,63 @@
     "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Hosts\\Avito.Api\\Avito.Api.csproj": {}
   },
   "projects": {
+    "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Application\\Avito.AppServices\\Avito.AppServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Application\\Avito.AppServices\\Avito.AppServices.csproj",
+        "projectName": "Avito.AppServices",
+        "projectPath": "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Application\\Avito.AppServices\\Avito.AppServices.csproj",
+        "packagesPath": "C:\\Users\\PandY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Application\\Avito.AppServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PandY\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Contracts\\Avito.Contracts\\Avito.Contracts.csproj": {
+                "projectPath": "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Contracts\\Avito.Contracts\\Avito.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Contracts\\Avito.Contracts\\Avito.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -309,8 +366,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Application\\Avito.AppServices\\Avito.AppServices.csproj": {
+                "projectPath": "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Application\\Avito.AppServices\\Avito.AppServices.csproj"
+              },
               "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Contracts\\Avito.Contracts\\Avito.Contracts.csproj": {
                 "projectPath": "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Contracts\\Avito.Contracts\\Avito.Contracts.csproj"
+              },
+              "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Infrastructure\\Avito.Infrastructure\\Avito.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Infrastructure\\Avito.Infrastructure\\Avito.Infrastructure.csproj"
               }
             }
           }
@@ -382,6 +445,65 @@
         }
       }
     },
+    "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Infrastructure\\Avito.Infrastructure\\Avito.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Infrastructure\\Avito.Infrastructure\\Avito.Infrastructure.csproj",
+        "projectName": "Avito.Infrastructure",
+        "projectPath": "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Infrastructure\\Avito.Infrastructure\\Avito.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\PandY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Infrastructure\\Avito.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PandY\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Infrastructure\\Avito.Registrar\\Avito.Registrar.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -406,6 +528,9 @@
             "projectReferences": {
               "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Infrastructure\\Avito.DataAccess\\Avito.DataAccess.csproj": {
                 "projectPath": "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Infrastructure\\Avito.DataAccess\\Avito.DataAccess.csproj"
+              },
+              "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Infrastructure\\Avito.Infrastructure\\Avito.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\PandY\\RiderProjects\\Avito\\src\\Avito\\Infrastructure\\Avito.Infrastructure\\Avito.Infrastructure.csproj"
               }
             }
           }

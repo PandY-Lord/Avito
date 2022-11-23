@@ -1,7 +1,9 @@
 ﻿using System.Globalization;
 using Avito.DataAccess;
 using Avito.DataAccess.Interface;
+using Avito.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Avito.Registrar;
@@ -15,6 +17,7 @@ public static class AvitoRegistrar
                 .Configure((DbContextOptionsBuilder<AdvertContext>)dbOptions)));
         services.AddSingleton<IDbContextOptionConfigurator<AdvertContext>, AdvertContextConfiguration>();
         services.AddScoped(sp => (DbContext) sp.GetRequiredService<AdvertContext>());
+        services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
         return services;
     }
     

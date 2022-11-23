@@ -2350,6 +2350,19 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "Avito.AppServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Avito.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Avito.AppServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Avito.AppServices.dll": {}
+        }
+      },
       "Avito.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2372,7 +2385,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Avito.AppServices": "1.0.0",
           "Avito.Contracts": "1.0.0",
+          "Avito.Infrastructure": "1.0.0",
           "ConfigurationBuilder": "1.0.0",
           "EntityFramework6.Npgsql": "6.4.3",
           "Microsoft.EntityFrameworkCore": "7.0.0",
@@ -2403,6 +2418,19 @@
         },
         "runtime": {
           "bin/placeholder/Avito.Domain.dll": {}
+        }
+      },
+      "Avito.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Avito.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Avito.Infrastructure.dll": {}
         }
       }
     }
@@ -7407,6 +7435,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "Avito.AppServices/1.0.0": {
+      "type": "project",
+      "path": "../../../Application/Avito.AppServices/Avito.AppServices.csproj",
+      "msbuildProject": "../../../Application/Avito.AppServices/Avito.AppServices.csproj"
+    },
     "Avito.Contracts/1.0.0": {
       "type": "project",
       "path": "../../../Contracts/Avito.Contracts/Avito.Contracts.csproj",
@@ -7421,6 +7454,11 @@
       "type": "project",
       "path": "../../../Domain/Avito.Domain/Avito.Domain.csproj",
       "msbuildProject": "../../../Domain/Avito.Domain/Avito.Domain.csproj"
+    },
+    "Avito.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../../Infrastructure/Avito.Infrastructure/Avito.Infrastructure.csproj",
+      "msbuildProject": "../../../Infrastructure/Avito.Infrastructure/Avito.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -5,6 +5,10 @@ namespace Avito.Contracts;
 public class AvitoAllDto
 {
     /// <summary>
+    /// Уникальный ключЬ объявления
+    /// </summary>
+    public Guid Id { get; set; }
+    /// <summary>
     /// Наименование товара
     /// </summary>
     public string Title { get; set; }
