@@ -80,3 +80,7 @@ C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Mo
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Avito.AppServices.dll
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Avito.Infrastructure.dll
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Avito.AppServices.pdb
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Hosts\Avito.Api\bin\Debug\net6.0\Avito.Infrastructure.pdb

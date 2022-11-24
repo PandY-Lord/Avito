@@ -15,7 +15,7 @@ public class AdvertRepository : IAdvertRepository
         _repository = repository;
     }
 
-    public async Task<IReadOnlyCollection<AvitoAllDto>> GetAll(int take, int skip)
+    public async Task<IReadOnlyCollection<AvitoAllDto>> GetAll(int take, int skip, CancellationToken cancellationToken)
     {
         return await _repository.GetAll()
             .Select(p => new AvitoAllDto
@@ -30,9 +30,10 @@ public class AdvertRepository : IAdvertRepository
             .Take(take).Skip(skip).ToListAsync();
     }
 
-    public async Task<IReadOnlyCollection<AvitoAllDto>> GetAllFiltered(AdvertFilterRequest request)
+    public async Task<IReadOnlyCollection<AvitoAllDto>> GetAllFiltered(AdvertFilterRequest request,
+        CancellationToken cancellationToken)
     {
-        var query = _repository.GetAll()
+        var query = _repository.GetAll();
 
         if (request.Id.HasValue)
         {
@@ -52,7 +53,7 @@ public class AdvertRepository : IAdvertRepository
                     Location = p.Location,
                     Title = p.Title
                 })
-                .ToListAsync();
+                .ToListAsync(cancellationToken);
 
     }
 }

@@ -1262,6 +1262,14 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "Avito.AppServices/1.0.0": {
+        "dependencies": {
+          "Avito.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Avito.AppServices.dll": {}
+        }
+      },
       "Avito.Contracts/1.0.0": {
         "dependencies": {
           "Avito.Domain": "1.0.0",
@@ -1277,7 +1285,9 @@
       },
       "Avito.DataAccess/1.0.0": {
         "dependencies": {
+          "Avito.AppServices": "1.0.0",
           "Avito.Contracts": "1.0.0",
+          "Avito.Infrastructure": "1.0.0",
           "ConfigurationBuilder": "1.0.0",
           "EntityFramework6.Npgsql": "6.4.3",
           "Microsoft.EntityFrameworkCore": "7.0.0",
@@ -1302,9 +1312,18 @@
           "Avito.Domain.dll": {}
         }
       },
+      "Avito.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.0"
+        },
+        "runtime": {
+          "Avito.Infrastructure.dll": {}
+        }
+      },
       "Avito.Registrar/1.0.0": {
         "dependencies": {
           "Avito.DataAccess": "1.0.0",
+          "Avito.Infrastructure": "1.0.0",
           "ConfigurationBuilder": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
@@ -2231,6 +2250,11 @@
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
+    "Avito.AppServices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Avito.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -2242,6 +2266,11 @@
       "sha512": ""
     },
     "Avito.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Avito.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

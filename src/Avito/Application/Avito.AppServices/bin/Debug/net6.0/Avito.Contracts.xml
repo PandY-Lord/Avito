@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Avito.Contracts</name>
+    </assembly>
+    <members>
+        <member name="T:Avito.Contracts.AdvertFilterRequest">
+            <summary>
+            Фильтр для объявлений
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AdvertFilterRequest.Id">
+            <summary>
+            Филтрация по ID
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AdvertFilterRequest.Name">
+            <summary>
+            Фильтрация по наименования объявления
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AdvertFilterRequest.Price">
+            <summary>
+            Фильтрация по цене объявления
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AdvertFilterRequest.Cities">
+            <summary>
+            Фильтрация по городу, в котором объявление
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AdvertFilterRequest.Category">
+            <summary>
+            Фильтр по категории товара
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoAllDto.Id">
+            <summary>
+            Уникальный ключЬ объявления
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoAllDto.Title">
+            <summary>
+            Наименование товара
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoAllDto.Price">
+            <summary>
+            Цена товара
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoAllDto.CreateDate">
+            <summary>
+            Дата создания/выгрузки объявления
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoAllDto.Picture">
+            <summary>
+            Картинки товара
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoAllDto.PersonId">
+            <summary>
+            Уникальный id продавца
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoAllDto.Location">
+            <summary>
+            Город в котором находится товар
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoAllDto.Categoty">
+            <summary>
+            Категория товара
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoDto.Id">
+            <summary>
+            Уникальный ключЬ объявления
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoDto.Title">
+            <summary>
+            Наименование товара
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoDto.Price">
+            <summary>
+            Цена товара
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoDto.Description">
+            <summary>
+            Описание товара
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoDto.PhoneNumber">
+            <summary>
+            Номер проадвца
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoDto.CreateDate">
+            <summary>
+            Дата создания/выгрузки объявления
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoDto.Pictures">
+            <summary>
+            Картинки товара
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoDto.PersonId">
+            <summary>
+            Уникальный номер продавца
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoDto.Location">
+            <summary>
+            Город в котором находится товар
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.AvitoDto.Category">
+            <summary>
+            Категория товара
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.CreateAndUpdateDto.Title">
+            <summary>
+            Наименование товара
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.CreateAndUpdateDto.Price">
+            <summary>
+            Цена товара
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.CreateAndUpdateDto.CreateDate">
+            <summary>
+            Дата создания/выгрузки объявления
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.CreateAndUpdateDto.Picture">
+            <summary>
+            Картинки товара
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.CreateAndUpdateDto.PersonId">
+            <summary>
+            Уникальный id продавца
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.CreateAndUpdateDto.Location">
+            <summary>
+            Город в котором находится товар
+            </summary>
+        </member>
+        <member name="P:Avito.Contracts.CreateAndUpdateDto.Categoty">
+            <summary>
+            Категория товара
+            </summary>
+        </member>
+    </members>
+</doc>

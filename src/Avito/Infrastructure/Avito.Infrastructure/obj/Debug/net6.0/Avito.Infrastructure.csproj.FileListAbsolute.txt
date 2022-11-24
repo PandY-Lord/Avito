@@ -1,0 +1,12 @@
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Infrastructure\Avito.Infrastructure\bin\Debug\net6.0\Avito.Infrastructure.deps.json
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Infrastructure\Avito.Infrastructure\bin\Debug\net6.0\Avito.Infrastructure.dll
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Infrastructure\Avito.Infrastructure\bin\Debug\net6.0\Avito.Infrastructure.pdb
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Infrastructure\Avito.Infrastructure\obj\Debug\net6.0\Avito.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Infrastructure\Avito.Infrastructure\obj\Debug\net6.0\Avito.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Infrastructure\Avito.Infrastructure\obj\Debug\net6.0\Avito.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Infrastructure\Avito.Infrastructure\obj\Debug\net6.0\Avito.Infrastructure.AssemblyInfo.cs
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Infrastructure\Avito.Infrastructure\obj\Debug\net6.0\Avito.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Infrastructure\Avito.Infrastructure\obj\Debug\net6.0\Avito.Infrastructure.dll
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Infrastructure\Avito.Infrastructure\obj\Debug\net6.0\refint\Avito.Infrastructure.dll
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Infrastructure\Avito.Infrastructure\obj\Debug\net6.0\Avito.Infrastructure.pdb
+C:\Users\PandY\RiderProjects\Avito\src\Avito\Infrastructure\Avito.Infrastructure\obj\Debug\net6.0\ref\Avito.Infrastructure.dll

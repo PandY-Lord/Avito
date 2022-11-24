@@ -21,7 +21,7 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:Avito.Api.Controller.AdController.DeleteAsyncAdvert(Avito.Contracts.CreateAndUpdateDto,System.Threading.CancellationToken)">
+        <member name="M:Avito.Api.Controller.AdController.DeleteAsyncAdvert(System.Guid)">
             <summary>
             Удаление созданного объявление
             </summary>
@@ -41,6 +41,11 @@
              </summary>
             <param name="createAdvertDto"></param>
              <returns></returns>
+        </member>
+        <member name="T:Avito.Api.Controller.AdvertSmartBaseUltraController">
+            <summary>
+            Работа с контроллером объявлений
+            </summary>
         </member>
     </members>
 </doc>
